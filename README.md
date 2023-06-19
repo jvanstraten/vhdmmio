@@ -3,10 +3,8 @@ vhdMMIO
 =======
 
 [![PyPi](https://badgen.net/pypi/v/vhdmmio)](https://pypi.org/project/vhdmmio/)
-[![Documentation](https://badgen.net/badge/documentation/%20/green)](https://abs-tudelft.github.io/vhdmmio/)
-[![Build Status](https://dev.azure.com/abs-tudelft/vhdmmio/_apis/build/status/abs-tudelft.vhdmmio?branchName=master)](https://dev.azure.com/abs-tudelft/vhdmmio/_build/latest?definitionId=4&branchName=master)
-[![codecov](https://codecov.io/gh/abs-tudelft/vhdmmio/branch/master/graph/badge.svg)](https://codecov.io/gh/abs-tudelft/vhdmmio)
-[![License](https://badgen.net/github/license/abs-tudelft/vhdmmio)](https://github.com/abs-tudelft/vhdmmio/blob/master/LICENSE)
+[![Documentation](https://badgen.net/badge/documentation/%20/green)](https://jvanstraten.github.io/vhdmmio/)
+[![License](https://badgen.net/github/license/jvanstraten/vhdmmio)](https://github.com/jvanstraten/vhdmmio/blob/master/LICENSE)
 
 vhdMMIO is a fully vendor-agnostic tool to build AXI4-lite MMIO
 infrastructure with, based on easy-to-write YAML specification files. For
@@ -61,6 +59,21 @@ Documentation
 
 Most of vhdMMIO's documentation is concerned with the structure of the YAML
 configuration files. You can find this
-[here](https://abs-tudelft.github.io/vhdmmio/).
+[here](https://jvanstraten.github.io/vhdmmio/).
 You can also find example register file descriptions
-[here](https://github.com/abs-tudelft/vhdmmio/tree/master/examples).
+[here](https://github.com/jvanstraten/vhdmmio/tree/master/examples).
+
+Note on TU Delft involvement and licensing
+------------------------------------------
+
+vhdMMIO was originally developed by me, [Jeroen van Straten](https://github.com/jvanstraten/), within the
+[Accelerated Big-data Systems group of Delft University of Technology](https://github.com/abs-tudelft/vhdmmio).
+However, nothing much has happened with it in that repo since I left TU Delft,
+and the Python package is actually tied to my personal PyPI account. So, for
+all intents and purposes *except* for copyright ownership it is my project,
+and thus to avoid nonsense with setting up github secrets and the likes I
+migrated it to my own account. As for copyright, the project being licensed
+under Apache means I can do basically what I want with it as long as I leave
+Delft University of Technology as the copyright owner and mark significant
+modifications, so that's what I will do. For newly added files (if any),
+I'll just name myself as the copyright owner.

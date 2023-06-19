@@ -1,4 +1,4 @@
--- Generated using vhdMMIO $version$ (https://github.com/abs-tudelft/vhdmmio)
+-- Generated using vhdMMIO $version$ (https://github.com/jvanstraten/vhdmmio)
 
 library ieee;
 use ieee.std_logic_1164.all;

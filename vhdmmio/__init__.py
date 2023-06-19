@@ -34,7 +34,7 @@ def run_cli(args=None):
     parser = argparse.ArgumentParser(
         description='This script generates AXI4L-compatible register files '
         'from simple YAML or JSON descriptions. Visit '
-        'https://github.com/abs-tudelft/vhdmmio for more information.')
+        'https://github.com/jvanstraten/vhdmmio for more information.')
 
     parser.add_argument(
         'source', nargs='*',
