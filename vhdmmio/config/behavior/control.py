@@ -31,6 +31,7 @@ class BaseControl(BasePrimitive):
     'control', 'basic control field, i.e. written by software and read by '
     'hardware.', 2)
 @derive(
+    name='`control` behavior',
     hw_read=('simple', 'enabled'),
     reset=[None])
 class Control(BaseControl):
